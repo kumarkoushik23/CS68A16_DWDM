@@ -1,0 +1,8 @@
+x<-data.frame(Name=c("naveen","ram","subbu"),
+              Age=c(20,25,30),
+              gender=c("m","m","m"),
+              marks=c("98","78","49"),
+              stringsAsFactors = FALSE
+                     )
+View(x)
+write.csv(x,"x.csv")
